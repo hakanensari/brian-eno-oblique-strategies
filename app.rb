@@ -1,6 +1,8 @@
 require 'sinatra'
 require 'sinatra/jsonp'
 
+disable :protection
+
 set :strategies => File.read('config/oblique.txt').split("\n")
 
 get '/' do
