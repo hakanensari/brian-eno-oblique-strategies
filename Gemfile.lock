@@ -1,28 +1,22 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
-    kgio (2.7.4)
-    multi_json (1.3.7)
-    rack (1.4.1)
-    rack-protection (1.2.0)
-      rack
-    raindrops (0.10.0)
-    sinatra (1.3.3)
-      rack (~> 1.3, >= 1.3.6)
-      rack-protection (~> 1.2)
-      tilt (~> 1.3, >= 1.3.3)
-    sinatra-jsonp (0.4)
-      multi_json (~> 1.3.7)
-      sinatra (~> 1.0)
-    tilt (1.3.3)
-    unicorn (4.5.0)
+    kgio (2.11.4)
+    rack (2.2.4)
+    raindrops (0.20.0)
+    unicorn (6.1.0)
       kgio (~> 2.6)
-      rack
       raindrops (~> 0.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  sinatra-jsonp
+  rack
   unicorn
+
+RUBY VERSION
+   ruby 3.1.2p20
+
+BUNDLED WITH
+   2.3.17

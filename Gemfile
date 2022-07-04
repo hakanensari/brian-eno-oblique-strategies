@@ -1,4 +1,6 @@
-source 'http://rubygems.org'
+# frozen_string_literal: true
 
-gem 'sinatra-jsonp'
-gem 'unicorn', :group => :production
+source 'https://rubygems.org'
+ruby '~> 3.0'
+gem 'rack'
+gem 'unicorn'
